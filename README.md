@@ -48,11 +48,14 @@ A smart input field with support for:
 
 ## 📸 Screenshots
 
-1. **Input - Default State**:
-   ![Input Default](./screenshots/input-default.png)
-2. **Input - Password State** (with toggle button and visible text):
-   ![Input Password](./screenshots/input-password-visible.png)
-3. **Input - Clearable State** (with entered text and clear button):
-   ![Input Clearable](./screenshots/input-clearable.png)
-4. **Storybook UI** (general view of the Storybook panel):
-   ![Storybook Interface](./screenshots/input-default.png)
+1. **Input - Default & Number States**:
+   - Default: ![Input Default](./screenshots/input-default.png) (empty or with text)
+   - Number: ![Input Number](./screenshots/input-number.png) (with numeric type)
+2. **Input - Password States** (security and visibility):
+   - Hidden: ![Input Password Hidden](./screenshots/input-password-hidden.png) (standard password mask)
+   - Visible: ![Input Password Visible](./screenshots/input-password-visible.png) (after clicking the eye icon)
+3. **Input - Clearable & Error States**:
+   - Clearable: ![Input Clearable](./screenshots/input-clearable.png) (with clear "X" button)
+   - Error: ![Input Error](./screenshots/input-error.png) (with validation feedback)
+4. **Storybook UI**:
+   ![Storybook Interface](./screenshots/input-default.png) (general view of the development environment)
