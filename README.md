@@ -71,14 +71,24 @@ A notification system with animations and auto-dismiss:
    - Error: ![Toast Error](./screenshots/toast-error.png) (failure notification)
 3. **Animations**: Smooth fade/slide using Framer Motion.
 
-### 2. Toast Component
-A notification system with animations and auto-dismiss:
+### 3. Sidebar Menu Component
+A responsive slide-out menu with nested item support:
 
-1. **Toast - Info & Success States**:
-   - Info: ![Toast Info](./screenshots/toast-info.png) (standard notification)
-   - Success: ![Toast Success](./screenshots/toast-success.png) (positive feedback)
-2. **Toast - Warning & Error States**:
-   - Warning: ![Toast Warning](./screenshots/toast-warning.png) (alert message)
-   - Error: ![Toast Error](./screenshots/toast-error.png) (failure notification)
-3. **Animations**: Smooth fade/slide using Framer Motion.
+1. **Menu - Nested Levels**:
+   ![Sidebar Nested](./screenshots/sidebar-nested.png) (showing expanded categories and nested items)
+2. **Features**:
+   - Slide-in from right animation.
+   - Backdrop with blur effect.
+   - Recursive nesting support.
+   - Click-to-close on backdrop or close button.
+
+---
+
+## 🎁 Bonus Features
+
+### React Hook Form Integration
+We've integrated `react-hook-form` to demonstrate how the `Input` component can be used in real-world form scenarios.
+
+1. **RHF Example**:
+   ![Input RHF](./screenshots/input-rhf.png) (interactive form with validation)
 

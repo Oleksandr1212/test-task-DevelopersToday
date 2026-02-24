@@ -1,0 +1,114 @@
+.dt-sidebar-backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(2px);
+    z-index: 9998;
+}
+
+.dt-sidebar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 320px;
+    height: 100vh;
+    background-color: #ffffff;
+    box-shadow: -4px 0 15px rgba(0, 0, 0, 0.1);
+    z-index: 9999;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+.dt-sidebar__header {
+    padding: 20px 24px;
+    border-bottom: 1px solid #f3f4f6;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.dt-sidebar__title {
+    margin: 0;
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #111827;
+}
+
+.dt-sidebar__close {
+    background: none;
+    border: none;
+    font-size: 2rem;
+    color: #9ca3af;
+    cursor: pointer;
+    line-height: 1;
+    padding: 4px;
+    border-radius: 4px;
+    transition: all 0.2s;
+}
+
+.dt-sidebar__close:hover {
+    color: #111827;
+    background-color: #f3f4f6;
+}
+
+.dt-sidebar__nav {
+    flex: 1;
+    overflow-y: auto;
+    padding: 12px 0;
+}
+
+.dt-sidebar__list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.dt-sidebar__item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 24px;
+    cursor: pointer;
+    transition: all 0.2s;
+    color: #4b5563;
+    user-select: none;
+}
+
+.dt-sidebar__item:hover {
+    background-color: #f9fafb;
+    color: #111827;
+}
+
+.dt-sidebar__item.is-expanded {
+    color: #111827;
+    font-weight: 600;
+}
+
+.dt-sidebar__item-content {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.dt-sidebar__item-icon {
+    font-size: 1.1rem;
+}
+
+.dt-sidebar__item-label {
+    font-size: 0.9375rem;
+}
+
+.dt-sidebar__chevron {
+    font-size: 0.75rem;
+    color: #9ca3af;
+    margin-left: 8px;
+}
+
+.dt-sidebar__sub-menu {
+    overflow: hidden;
+    background-color: #fafbfc;
+}
