@@ -59,3 +59,26 @@ A smart input field with support for:
    - Error: ![Input Error](./screenshots/input-error.png) (with validation feedback)
 4. **Storybook UI**:
    ![Storybook Interface](./screenshots/input-default.png) (general view of the development environment)
+
+### 2. Toast Component
+A notification system with animations and auto-dismiss:
+
+1. **Toast - Info & Success States**:
+   - Info: ![Toast Info](./screenshots/toast-info.png) (standard notification)
+   - Success: ![Toast Success](./screenshots/toast-success.png) (positive feedback)
+2. **Toast - Warning & Error States**:
+   - Warning: ![Toast Warning](./screenshots/toast-warning.png) (alert message)
+   - Error: ![Toast Error](./screenshots/toast-error.png) (failure notification)
+3. **Animations**: Smooth fade/slide using Framer Motion.
+
+### 2. Toast Component
+A notification system with animations and auto-dismiss:
+
+1. **Toast - Info & Success States**:
+   - Info: ![Toast Info](./screenshots/toast-info.png) (standard notification)
+   - Success: ![Toast Success](./screenshots/toast-success.png) (positive feedback)
+2. **Toast - Warning & Error States**:
+   - Warning: ![Toast Warning](./screenshots/toast-warning.png) (alert message)
+   - Error: ![Toast Error](./screenshots/toast-error.png) (failure notification)
+3. **Animations**: Smooth fade/slide using Framer Motion.
+
